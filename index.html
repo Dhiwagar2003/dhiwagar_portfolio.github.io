@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dhiwagar D — Java Developer Portfolio</title>
+  <style>
+    :root{--bg:#f7f8fa;--card:#ffffff;--accent:#0b5fff;--muted:#6b7280;--maxw:980px}
+    *{box-sizing:border-box}
+    body{font-family:Inter,Segoe UI,Helvetica,Arial,sans-serif;background:var(--bg);color:#111;margin:0;padding:32px;display:flex;justify-content:center}
+    .wrap{max-width:var(--maxw);width:100%}
+    header{display:flex;align-items:center;gap:20px}
+    .avatar{width:88px;height:88px;border-radius:12px;background:linear-gradient(135deg,#e6eefc,#eef7ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent)}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:2fr 1fr;gap:20px;margin-top:24px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:#eef2ff;padding:8px 10px;border-radius:999px;font-size:13px}
+    h2{margin-top:0}
+    .projects{display:grid;gap:12px}
+    .project{padding:12px;border-radius:10px;border:1px solid #eef1f6}
+    .project h3{margin:0 0 6px}
+    .meta{font-size:13px;color:var(--muted);margin-bottom:8px}
+    .actions{display:flex;gap:8px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600;border:1px solid transparent}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-outline{background:transparent;border-color:#e6e9f2;color:var(--accent)}
+    footer{margin-top:28px;text-align:center;color:var(--muted);font-size:14px}
+    .contact-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px}
+    .small{font-size:13px;color:var(--muted)}
+    @media (max-width:800px){.grid{grid-template-columns:1fr}.avatar{width:72px;height:72px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="avatar">DD</div>
+      <div>
+        <h1>Dhiwagar D</h1>
+        <p class="lead">Entry-level Java Developer • Full-Stack basics with Spring Boot & MySQL • Problem solver</p>
+        <p class="small">Cuddalore, Tamil Nadu &nbsp;•&nbsp; <a href="mailto:dhiwadhiwa518@gmail.com">dhiwadhiwa518@gmail.com</a> &nbsp;•&nbsp; +91 8754817856</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <div class="card">
+          <h2>About</h2>
+          <p>Motivated and detail-oriented Java Developer with hands-on experience building backend systems using Java, Spring Boot, and MySQL. Experienced with front-end basics (HTML, CSS, JavaScript) and focused on writing clean, maintainable code. Seeking an entry-level Java Developer role to contribute to meaningful software projects.</p>
+          <div style="margin-top:12px" class="actions">
+            <a class="btn btn-primary" href="Dhiwagar_Resume.docx" download>Download Resume</a>
+            <a class="btn btn-outline" href="https://www.linkedin.com/in/dhiwagar-d-53875b226/" target="_blank">LinkedIn</a>
+            <a class="btn btn-outline" href="https://github.com/yourusername" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>Projects</h2>
+          <div class="projects">
+            <div class="project">
+              <h3>E‑Commerce Website</h3>
+              <div class="meta">Java • Spring Boot • MySQL • Maven</div>
+              <p>Designed and implemented RESTful APIs for product and user management. Integrated MySQL using JPA and optimized queries for better performance. Implemented authentication and basic admin workflows.</p>
+              <div class="actions"><a class="btn btn-outline" href="#">View Code</a><a class="btn btn-outline" href="#">Live (if any)</a></div>
+            </div>
+
+            <div class="project">
+              <h3>Library Management System</h3>
+              <div class="meta">Core Java • JDBC • MySQL</div>
+              <p>Built a desktop/console application to manage books and user records. Implemented CRUD operations via JDBC and designed logical workflows for borrowing/returning books.</p>
+              <div class="actions"><a class="btn btn-outline" href="#">View Code</a></div>
+            </div>
+
+            <div class="project">
+              <h3>Blind People Shopping Assistance</h3>
+              <div class="meta">Python • OpenCV • Speech Recognition • WAMP Server</div>
+              <p>Developed an application using trained voice features and object detection to assist visually impaired users. Integrated speech commands and server connectivity for storing user preferences.</p>
+              <div class="actions"><a class="btn btn-outline" href="#">View Code</a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h2>Certifications</h2>
+          <ul class="small">
+            <li>NPTEL – Programming in Java</li>
+            <li>HackerRank – SQL Basics, Java Basics, Python Basics</li>
+            <li>Full Stack Development in Java – QSpiders (2024–2025)</li>
+          </ul>
+        </div>
+      </main>
+
+      <aside>
+        <div class="card">
+          <h2>Skills</h2>
+          <div class="skills">
+            <span class="skill">Java</span>
+            <span class="skill">Spring Boot</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">JDBC</span>
+            <span class="skill">REST APIs</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Python</span>
+            <span class="skill">OOPs</span>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Education</h2>
+          <p class="small"><strong>B.E. Computer Science</strong><br>CK College of Engineering & Technology (2020–2024)<br>CGPA: 8.16/10</p>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Contact</h2>
+          <ul class="contact-list small">
+            <li>Email: <a href="mailto:dhiwadhiwa518@gmail.com">dhiwadhiwa518@gmail.com</a></li>
+            <li>Phone: +91 8754817856</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/dhiwagar-d-53875b226/" target="_blank">Profile</a></li>
+            <li>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
+          </ul>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Other</h2>
+          <p class="small">Languages: English, Tamil<br>Interests: Open-source, Backend development, Accessibility</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Built by Dhiwagar D · <span class="small">Want changes? Ask me to edit this portfolio.</span>
+    </footer>
+  </div>
+</body>
+</html>
